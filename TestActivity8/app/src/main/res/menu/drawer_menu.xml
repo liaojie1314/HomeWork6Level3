@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favor"
+            android:icon="@drawable/favor"
+            android:title="我的收藏"/>
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/balance"
+            android:title="我的钱包"/>
+        <item
+            android:id="@+id/nav_contract"
+            android:icon="@drawable/contract"
+            android:title="朋友圈"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends"
+            android:title="联系人"/>
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message"
+            android:title="我的信息"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="我的设置"/>
+    </group>
+
+</menu>
